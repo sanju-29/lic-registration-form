@@ -1,0 +1,184 @@
+/* ========== Global ========== */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #eef2f9, #f6e9e5);
+    color: #333;
+  }
+  
+  /* ========== Container ========== */
+  .register-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 15px 20px;
+    box-sizing: border-box;
+  }
+  
+  /* ========== Logo ========== */
+  #logo {
+    margin-top: 0px;
+  }
+  
+  .logo-img {
+    width: 220px;
+    height: 160px;
+    transition: transform 0.3s ease;
+  }
+  
+  .logo-img:hover {
+    transform: scale(1.1);
+  }
+  
+  /* ========== Heading ========== */
+  .top h1 {
+    font-size: 32px;
+    color: #0a3d62;
+    margin: 15px 0 25px;
+    text-align: center;
+  }
+  
+  /* ========== Info Section Card ========== */
+  .info-section {
+    width: 100%;
+    max-width: 600px;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 35px 25px;
+    border-radius: 16px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .info-section:hover {
+    transform: translateY(-3px);
+  }
+  
+  /* ========== Paragraphs ========== */
+  .para {
+    font-size: 17px;
+    line-height: 1.7;
+    margin-bottom: 18px;
+    color: #444;
+  }
+  
+  /* ========== Register Button ========== */
+  .register-btn {
+    background-color: #0a3d62;
+    color: #fff;
+    padding: 12px 28px;
+    border: none;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 25px;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+  }
+  
+  .register-btn:hover {
+    background-color: #06314e;
+    transform: scale(1.03);
+  }
+  
+  /* ========== Form Styles ========== */
+  .register-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .register-form input,
+  .register-form textarea {
+    padding: 12px 15px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    outline: none;
+    transition: border-color 0.2s, box-shadow 0.2s;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .register-form input:focus,
+  .register-form textarea:focus {
+    border-color: #0a3d62;
+    box-shadow: 0 0 6px rgba(10, 61, 98, 0.2);
+    background-color: #fff;
+  }
+  
+  .register-form button[type="submit"] {
+    background: #0a3d62;
+    color: #fff;
+    padding: 12px 25px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+    transition: background 0.3s ease, transform 0.2s ease;
+  }
+  
+  .register-form button[type="submit"]:hover {
+    background: #06314e;
+    transform: scale(1.03);
+  }
+  
+  /* ========== Footer ========== */
+  .footer {
+    margin-top: 40px;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+    border-top: 1px solid #ccc;
+    width: 100%;
+  }
+  
+  .footer .flag {
+    font-size: 18px;
+  }
+  
+  /* ========== Responsive Design ========== */
+  @media (max-width: 768px) {
+    .top h1 {
+      font-size: 24px;
+    }
+  
+    .info-section {
+      padding: 25px 20px;
+      margin: 0 10px;
+    }
+  
+    .register-form button[type="submit"],
+    .register-btn {
+      width: 100%;
+    }
+  
+    .logo-img {
+      width: 70px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .top h1 {
+      font-size: 20px;
+    }
+  
+    .para {
+      font-size: 15px;
+    }
+  
+    .info-section {
+      padding: 20px 15px;
+    }
+  
+    .footer {
+      font-size: 13px;
+      padding: 8px 0;
+    }
+  }
+  
