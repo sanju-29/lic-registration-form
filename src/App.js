@@ -1,5 +1,6 @@
 
 import './App.css';
+
 import Register from './components/Home';
 
 
@@ -9,6 +10,7 @@ function App() {
     <>
     <div className='full'>
     <Register/>
+  
     </div>
     </>
   );

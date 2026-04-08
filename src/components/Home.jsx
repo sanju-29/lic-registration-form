@@ -20,7 +20,7 @@ const handleChange = (e) => {
   
     try {
       await fetch(
-        'https://script.google.com/macros/s/AKfycbzsuWdqDBPR-qsWuyxi8OwbpNcc58mrGAt1scW1eDm7D3P39m8uTcFOn2BdEIYlCUQ8RQ/exec',
+        'https://script.google.com/macros/s/AKfycbzHdpN-Rvr6V4bxmCDunoRd8VY3cl4N9gby_VUjPXOw6TYStmpqtRZ3mA5ecYZZPw4P/exec',
         {
           method: 'POST',
           mode: 'no-cors', // <- THIS FIXES IT!
@@ -91,10 +91,12 @@ const handleChange = (e) => {
       </div>
 
       <div className="footer">
-        © 2025 All rights reserved | Bengaluru, India 🇮🇳
+        © All rights reserved | Bengaluru, India 🇮🇳
       </div>
     </div>
+ 
   );
 };
+
 
 export default Register;
